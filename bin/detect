@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#detect files
+echo "-----> Check file cache"
+find "$BUILD_DIR/backgrounds/*.jpg"
+find "$BUILD_DIR/fonts/*.ttf"
+exit 0

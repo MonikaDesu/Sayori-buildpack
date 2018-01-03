@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "-----> Resolving dependencies"
+
+sh '$BUILD_DIR/get_resources.sh'
+
