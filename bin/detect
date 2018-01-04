@@ -1,7 +1,8 @@
 #!/bin/sh
 
-#detect files
-echo "-----> Check file cache"
-find "$BUILD_DIR/backgrounds/*.jpg"
-find "$BUILD_DIR/fonts/*.ttf"
-exit 0
+if [ -f $BUILD-DIR/*.sh ]; then
+  echo "Found Postbuild scripts"
+  exit 0
+else
+  exit 1
+fi
