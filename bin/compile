@@ -2,5 +2,5 @@
 
 echo "-----> Resolving dependencies"
 
-sh '/app/get_resources.sh'
+sh 'get_resources.sh'
 
