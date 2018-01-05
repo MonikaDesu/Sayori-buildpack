@@ -4,5 +4,5 @@ echo "-----> Resolving dependencies"
 
 cd "$1" && \
 wget https://owo.whats-th.is/d7c9fe.zip -O resources.zip && \
-unzip resources.zip
-
+unzip resources.zip && \
+rm resources.zip
