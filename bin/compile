@@ -1,6 +1,0 @@
-#!/bin/sh
-
-echo "-----> Resolving dependencies"
-
-sh '$1/get_resources.sh'
-
