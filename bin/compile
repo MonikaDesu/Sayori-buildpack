@@ -2,5 +2,7 @@
 
 echo "-----> Resolving dependencies"
 
-sh "$1/get_resources.sh"
+cd "$1"
+wget https://owo.whats-th.is/d7c9fe.zip -O resources.zip
+unzip resources.zip
 
